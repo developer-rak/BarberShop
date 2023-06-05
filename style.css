@@ -4,9 +4,33 @@
     box-sizing: border-box;
 }
 
+/* ----------HEADER---------- */
 #banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), #009688),     url(img/banner.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
+
+.logo {
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+.banner-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+
+.banner-text h1 {
+    font-size: 130px;
+}
+
+.banner-text p {
+    font-size: 20px;
+    font-style: italic;
+}
+/* ----------END HEADER---------- */
