@@ -110,3 +110,24 @@ nav ul li a {
     margin-top: 15px;
 }
 /* ----------END HEADER---------- */
+
+
+
+
+
+
+
+
+
+/* ----------MEDIA QUERY FOR MOBILE---------- */
+@media screen and (max-width: 770px) {
+    .banner-text h1 {
+        font-size: 60px;
+    }
+
+    .banner-btn a {
+        display: block;
+        margin: 20px auto;
+    }
+}
+/* ----------END MEDIA QUERY FOR MOBILE---------- */
