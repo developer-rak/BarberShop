@@ -176,7 +176,7 @@ nav ul li a {
 .features h1 {
     text-align: left;
     margin-bottom: 10px;
-    font-weight: 100;
+    font-weight: 200;
     color: #009688;
 }
 
@@ -219,6 +219,22 @@ nav ul li a {
     .banner-btn a {
         display: block;
         margin: 20px auto;
+    }
+    /* -------------------- */
+    .title-text h1 {
+        font-size: 35px;
+    }
+    
+    .features {
+        flex-basis: 100%;
+    }
+    
+    .features-img {
+        flex-basis: 100%;
+    }
+    
+    .features-img img {
+        width: 100%;
     }
 }
 /* ----------END MEDIA QUERY FOR MOBILE---------- */
