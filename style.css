@@ -111,6 +111,25 @@ nav ul li a {
 }
 /* ----------END HEADER---------- */
 
+/* ----------FEATURES---------- */
+#feature {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.titile-text {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.titile-text p {
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+}
+/* ----------END FEATURES---------- */
+
 
 
 
