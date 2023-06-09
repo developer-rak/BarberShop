@@ -207,6 +207,25 @@ nav ul li a {
     width: 100%;
     padding: 70px 0;
     background: #efefef;
+    border: 1px solid red;
+}
+
+.service-box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.single-service {
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    border: 1px solid red;
 }
 /* ----------END SERVICES---------- */
 
