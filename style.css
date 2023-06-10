@@ -255,9 +255,11 @@ nav ul li a {
 .service-desc {
     width: 80%;
     position: absolute;
-    bottom: 40%;
+    bottom: 0;
     left: 50%;
     transform: translate(-50%);
+    opacity: 0;
+    transition: 1s;
 }
 
 hr {
@@ -266,6 +268,15 @@ hr {
     border: 0;
     margin: 15px auto;
     width: 60%;
+}
+
+.service-desc p {
+    font-size: 14px;
+}
+
+.single-service:hover .service-desc {
+    bottom: 40%;
+    opacity: 1;
 }
 /* ----------END SERVICES---------- */
 
@@ -303,6 +314,20 @@ hr {
 
     .features-img img {
         width: 100%;
+    }
+
+    /* -------------------- */
+    .single-service {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .service-desc p {
+        font-size: 12px;
+    }
+
+    hr {
+        margin: 5px auto;
     }
 }
 
