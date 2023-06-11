@@ -6,6 +6,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ----------HEADER---------- */
 #banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), #009688), url(img/banner.jpg);
@@ -394,6 +398,24 @@ hr {
     font-size: 20px;
     line-height: 40px;
     border: 1px solid #009688;
+    margin: 40px 5px 0;
+    color: #009688;
+    cursor: pointer;
+    transition: transform .6s;
+}
+.social-links .fa:hover {
+    background: #009688;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.social-links p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.social-links span {
+    color: #009688;
 }
 /* ----------END FOOTER---------- */
 
@@ -454,6 +476,20 @@ hr {
     /* ------------------- */
     .testimonial-col {
         flex-basis: 100%;
+    }
+
+    /* ------------------- */
+    .footer-left, .footer-right {
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+
+    .footer-img {
+        top: 23%;
+    }
+
+    .footer-right {
+        text-align: left;
     }
 }
 /* ----------END MEDIA QUERY FOR MOBILE---------- */
