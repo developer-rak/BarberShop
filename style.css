@@ -414,8 +414,10 @@ hr {
     margin-top: 20px;
 }
 
-.social-links span {
+.social-links span a {
     color: #009688;
+    text-decoration: none;
+    
 }
 /* ----------END FOOTER---------- */
 
